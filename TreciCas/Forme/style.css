@@ -1,0 +1,35 @@
+label {
+    display: inline-block;
+    width: 140px;
+}
+
+.skills {
+    margin-right: 10px;
+}
+
+.drugaForma {
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    width: 40%;
+    background-color: lightgreen;
+}
+
+.treciField {
+    background-color: lightblue;
+}
+
+.drugaForma label {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.drugaForma input {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.btn {
+    padding: 5px 10px;
+}
