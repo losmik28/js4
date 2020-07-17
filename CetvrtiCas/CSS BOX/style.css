@@ -1,0 +1,18 @@
+#span1, #span2 {
+    display: inline-block;
+    border: 1px solid black;
+    width: 48%;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#span1 {
+    margin-right: 5px;
+    background-color: lightpink;
+}
+
+#span2 {
+    background-color: lightgreen;
+}
+

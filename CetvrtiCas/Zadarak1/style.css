@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    background-image: url('./images/auto.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+}
+
+#tekst {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 4px black;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 43px;
+}
