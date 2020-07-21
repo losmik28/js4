@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+#gornji ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+}
+
+#gornji ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#gornji ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+}
+
+#gornji ul li a:hover {
+    background-color: red;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    width: 25%;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+#donji {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#donji ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+}
+
+#donji li {
+    width: 300px;
+    text-align: center;
+}
+
+#donji ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+}
+
+#donji ul li a:hover {
+    background-color: red;
+}
